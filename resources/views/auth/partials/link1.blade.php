@@ -1,0 +1,2 @@
+<li><a href="https://codeanddeploy.com/blog/laravel/laravel-8-authentication-login-and-registration-with-username-or-email?fbclid=IwZXh0bgNhZW0CMTAAAR1i0yEbaUuBKOh-qIAnfiap_kI-W3FImsUote8JO-hmUFNQpZDodhMLlhk_aem_ASts7-C4-9o7DASlkJHEMpeCH07oswRJeGEvzRkcRmq1dvnOyIC6gx5POtPUU1Qvlyn94WnypaosXHw1Nb8VdTMX#2oRdAiokNGwApUyVlE6pj2HA6" class="nav-link px-2 text-secondary">Laravel 9 Auth Login and Registration</a></li>
+
