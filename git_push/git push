@@ -1,0 +1,21 @@
+https://www.youtube.com/watch?v=bvi37IbJXS4
+
+ 
+ git config --global user.name "pacopacev"
+ git config --global user.email "pgdimitrov@yahoo.com"
+ 
+ 
+ 
+ 
+ 
+ git clone https://github.com/pacopacev/laravel_login_app.git
+ 
+ 
+ 
+/////
+git init
+git add .
+git commit -m "first commit"
+git status
+git remote set-url origin https://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@github.com/pacopacev/laravel_app
+git push origin main --force
