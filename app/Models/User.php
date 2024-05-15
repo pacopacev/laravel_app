@@ -7,6 +7,7 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 use Laravel\Sanctum\HasApiTokens;
+use Illuminate\Support\Facades\DB;
 
 class User extends Authenticatable {
 
@@ -54,4 +55,17 @@ class User extends Authenticatable {
     public function setPasswordAttribute($value) {
         $this->attributes['password'] = bcrypt($value);
     }
+
+    public function user_log($params){//записва log в user_log
+    if((isset($params->attributes['username']) and !empty($params->attributes['username'])) and (isset($params->attributes['email']) and !empty($params->attributes['email']))){
+    $data['username'] = pg_escape_string($params->attributes['username']);
+    $data['email'] = pg_escape_string($params->attributes['email']);
+    $data['created_at'] = now();
+           DB::table('user_log')->insert($data);
+        return['success' => true];
+    }
+   return['success' => false];
+
+    }
+
 }
