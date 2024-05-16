@@ -1,0 +1,2 @@
+
+/var/www/login_test$ php artisan migrate:refresh --path=/database/migrations/2024_05_15_054458_create_user_log_table.php

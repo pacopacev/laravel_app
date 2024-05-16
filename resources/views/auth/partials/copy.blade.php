@@ -1,2 +1,2 @@
-<p class="mt-5 mb-3 text-muted">&copy; {{date('Y-m-d')}}</p>
+<p class="mt-5 mb-3 text-muted">&copy; {{'Пешлеме йок контра '}} {{date('Y-m-d')}}</p>
 
